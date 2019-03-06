@@ -1,3 +1,6 @@
-bundles:
-  - javascript:
-    - eslint
+enabled: true
+bundles: "auto"
+report:
+  pullRequest:
+    findings: "onChangedLinesOnly"
+    comment: true
